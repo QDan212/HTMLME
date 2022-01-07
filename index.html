@@ -1,7 +1,7 @@
 <!DOCTYPE html>
     <html>
         <head>
-             <style>
+        <style>
                 .b_ground {
                 background-color: purple;
                 }
@@ -18,42 +18,69 @@
                 font-family: verdana;
                 font-size: 20px;
                 }
-            </style>
-   <div class="centered"> 
-        <h1 class="info"> About Me</h1>
 
-        <h2>Summer Aberdeen</h2>
+                .flex_container{
+                    display: flex;
+                    flex-grow: 1;
+                }
+                .skill_container{
+                    display: flex;
+                    flex-grow: 1;
+                }
+                .note_container{
+                    display: flex;
+                }
+                #background_b {
+                background-color: darkolivegreen;
+                }
+               
+        </style>
+        </head>
 
-        <img src="first pic2.jpg" width="200" />
-        <p>
-        I am a Business Science major pursuing a bachelor�s degree in Computer Information Systems with a graduation date of fall 2022.
-        the leadership skills, guidance, and support gained from
-        The TRIO SSS Students support Services program helped prepare and boost my confidence to perform well in my interviews as a result of this experience.
-        </p>
-   </div>
+
+        
+    <body id="background_b">
+        <div class="centered"> 
+            <h1 class="info"> About Me</h1>
+
+            <h2>Summer Aberdeen</h2>
+
+            <img src="first pic2.jpg" width="200" />
+            
+            <div class="note_container"><p>
+                I am a Business Science major pursuing a bachelor�s degree in Computer Information Systems with a graduation date of fall 2022.
+                the leadership skills, guidance, and support gained from
+                The TRIO SSS Students support Services program helped prepare and boost my confidence to perform well in my interviews as a result of this experience.
+                </p>
+            </div>
+        </div>
    
 
-    <h3>Things I enjoy doing</h3>
+        <div class="flex_container">
+            <h3>Things I enjoy doing</h3>
 
-    <ul>
-        <li>Food Catering</li>
-        <li>Cake Decorating</li>
-        <li>Creating flyers</li>
-        <li>Photographer</li>
-        <li>Event planner</li>
-    </ul>
+            <ul>
+                <div>Food Catering</div>
+                <div>Cake Decorating</div>
+                <div>Creating flyers</div>
+                <div>Photographer</div>
+                <div>Event planner</div>
+            </ul>
+        </div>
 
-    <h3>Topics I study</h3>
+        <h3>Topics I study</h3>
 
-    <ul>
-        <li>C++</li>
-        <li>Python</li>
-        <li>Photoshop</li>
-        <li>Java</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </ul>
+        <div class="skill_container">
+            <ul>
+                <li>C++</li>
+                <li>Python</li>
+                <li>Photoshop</li>
+                <li>Java</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
 
     <h3> <strong> clubs Affilated with</strong></h3>
    
@@ -71,14 +98,6 @@
     <li>TRIO SSS (STUDENT SUPPORT PROGRAM)</li>
     Volunteer Mentor
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>replit</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-<body class="b_ground">
 
-
-    <script src="script.js"></script>
-</body>
+   </body>
 </html>
